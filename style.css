@@ -1,0 +1,25 @@
+.sticky{
+    position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: aliceblue;
+  z-index: 100;}
+
+.spill{
+  margin-bottom: -7em;
+}
+.desk{
+  background-image: url("andyone--WW8jBak7bo-unsplash.jpg");
+  width: 100%;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px){
+  .h-text{
+    display: none;
+  }
+  div.spill{
+    margin-bottom:0em;
+  }
+}
