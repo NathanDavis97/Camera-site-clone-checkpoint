@@ -29,6 +29,10 @@ body{
   background-size: cover;
 }
 
+.h-color{
+  color: #f8f9fa;
+}
+
 @media screen and (max-width: 600px){
   .h-text{
     display: none;
@@ -36,7 +40,8 @@ body{
   div.spill{
     margin-bottom:0em;
   }
-  #m-text{
+  .m-text{
     width: min-content;
+    color: black;
   }
 }
