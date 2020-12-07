@@ -1,3 +1,17 @@
+body{
+  font-family: 'raleway';
+}
+ .font-size{
+   font-size: large;
+   color: #f6fbffd6;
+ }
+
+
+ .cam{
+  background-image: url('nathan-dumlao-McztPB7Uqx8-unsplash.jpg');
+  width: 100%;
+  background-size: cover;
+ }
 .sticky{
     position: fixed;
   top: 0;
@@ -21,5 +35,8 @@
   }
   div.spill{
     margin-bottom:0em;
+  }
+  #m-text{
+    width: min-content;
   }
 }
